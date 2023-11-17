@@ -3,7 +3,24 @@ html {
   scroll-behavior: smooth;
   background-color: #eee;
 }
+#scroll-to-top {
+  position: fixed;
+  bottom: 90px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.103);
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 1px solid #343a40;
+  text-decoration: none;
+  color: #343a40;
+  z-index: 10;
+}
 
+#scroll-to-top:hover {
+  color: #eee;
+  background-color: #343a40;
+  transition: all ease-in-out 0.2s;
+}
 /* Custom CSS for the header */
 header {
   height: 80vh;
@@ -104,24 +121,7 @@ header {
     padding: 2em 35px;
   }
 }
-#scroll-to-top {
-  position: fixed;
-  bottom: 90px;
-  right: 40px;
-  background-color: rgba(0, 0, 0, 0.103);
-  padding: 15px 30px;
-  border-radius: 50px;
-  border: 1px solid #343a40;
-  text-decoration: none;
-  color: #343a40;
-  z-index: 10;
-}
 
-#scroll-to-top:hover {
-  color: #eee;
-  background-color: #343a40;
-  transition: all ease-in-out 0.2s;
-}
 @media (max-width: 764px) {
   #image-edit {
     margin: 30px auto;
