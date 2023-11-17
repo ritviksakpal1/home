@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritvik Sakpal</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Add this in the head section of your HTML file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div id="top"></div>
+    <a href="#top" id="scroll-to-top">Top</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-edit">
+        <a class="navbar-brand" href="/index.html">Ritvik Sakpal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#socials">Socials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header with Banner -->
+    <header>
+        <h1>Explore my work</h1>
+        <!-- <p>Explore my work!</p> -->
+        <a href="/portfolio.html" class="btn btn-default explore-button">Explore Projects</a>
+    </header>
+
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p id="about-desc">Hey there, I'm Ritvik, a budding web developer with a fervor for sculpting digital
+                    experiences.
+                    Proficient in HTML, CSS, and JavaScript, I embark on a mission to breathe life into creative ideas
+                    on the web.
+
+                    I relish the thrill of problem-solving and am committed to continuous learning in the ever-evolving
+                    realm of web development. My objective is to craft sleek, user-friendly websites that make a lasting
+                    impression.
+
+                    Beyond the lines of code, you'll find me immersing myself in the virtual realms of gaming, trekking
+                    through nature's wonders, cheering for my favorite cricket team, and occasionally donning the chef's
+                    hat to whip up delicious meals. I firmly believe in the delicate dance between work and play.
+
+                    Let's connect and dive into the endless possibilities of the web together! Whether you're a fellow
+                    coder or someone intrigued by the digital landscape, I'm always up for a conversation and
+                    collaboration.</p>
+            </div>
+            <div class="col-md-6" id="image-edit">
+                <!-- Add an image of yourself here -->
+                <img src="/img/about.png" alt="Your Image" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <!-- Socials Section -->
+    <section id="socials" class="container mt-5">
+        <h2>Connect with Me</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center " id="social-edit">
+                <!-- Add your social media links here -->
+                <a href="https://twitter.com/your-twitter" target="_blank" class="btn btn-outline-primary btn-social">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin" target="_blank"
+                    class="btn btn-outline-primary btn-social">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a href="https://github.com/your-github" target="_blank" class="btn btn-outline-primary btn-social">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- Add more social media links as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Me</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="contact-edit">
+                <!-- Contact Form -->
+                <form action="https://formspree.io/f/xnqkybzp" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default send-msg-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-center py-4" id="footer">
+        <p>Developed & Designed with <i class="fas fa-heart"></i> by Ritvik</p>
+    </footer>
+
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

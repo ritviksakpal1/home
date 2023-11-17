@@ -1,0 +1,128 @@
+/* styles.css */
+html {
+  scroll-behavior: smooth;
+  background-color: #eee;
+}
+
+/* Custom CSS for the header */
+header {
+  height: 80vh;
+  background: url("/img/header.jpg") center/cover no-repeat; /* Replace 'your-banner-image.jpg' with your actual image path */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  text-align: center;
+}
+
+.explore-button {
+  margin-top: 20px;
+  background-color: #eee;
+  color: #343a40;
+  outline: none;
+  border: none;
+}
+.explore-button:hover {
+  background-color: #343a40;
+  color: #eee;
+}
+
+#nav-edit {
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  /* background-color: #343a40e0; */
+}
+
+.navbar-toggler {
+  color: #eee;
+}
+#about-desc {
+  line-height: 2.2em;
+}
+
+#social-edit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+#social-edit a {
+  margin: 25px 0;
+  background-color: #343a40;
+  color: #eee;
+  border: #343a40 1px solid;
+}
+#social-edit a:hover {
+  background-color: #eee;
+  color: #343a40;
+  border: #343a40 1px solid;
+}
+#contact-edit {
+  padding: 2em 0;
+}
+.send-msg-btn {
+  background-color: #343a40;
+  color: #eee;
+  border: #343a40 1px solid;
+}
+.send-msg-btn:hover {
+  background-color: #eee;
+  color: #343a40;
+  border: #343a40 1px solid;
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #eee;
+}
+#footer p {
+  margin: 0;
+}
+#contact {
+  margin: 40px auto;
+}
+@media (max-width: 425px) {
+  #nav-edit {
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 600px) {
+  #about {
+    padding: 0 30px;
+  }
+  #contact-edit {
+    padding: 2em 35px;
+  }
+}
+#scroll-to-top {
+  position: fixed;
+  bottom: 90px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.103);
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 1px solid #343a40;
+  text-decoration: none;
+  color: #343a40;
+}
+
+#scroll-to-top:hover {
+  color: #eee;
+  background-color: #343a40;
+  transition: all ease-in-out 0.2s;
+}
+@media (max-width: 764px) {
+  #image-edit {
+    margin: 30px auto;
+  }
+}
